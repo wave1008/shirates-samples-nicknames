@@ -1,0 +1,16 @@
+{
+  "key": "[Languages Screen]",
+
+  "include": [
+  ],
+
+  "identity": "[<-][Languages]",
+
+  "selectors": {
+    "[<-]": "@Navigate up",
+    "[Languages]": "@Languages",
+
+    "[Add a language]": ""
+  }
+
+}

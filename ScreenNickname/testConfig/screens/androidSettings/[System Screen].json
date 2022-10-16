@@ -1,0 +1,38 @@
+{
+  "key": "[System Screen]",
+
+  "include": [
+  ],
+
+  "identity": "[<-][System]",
+
+  "selectors": {
+    "[<-]": "@Navigate up",
+    "[System]": "@System",
+
+    "[Languages & input]": "",
+    "{Languages & input}": "[Languages & input]:belowLabel",
+
+    "[Gestures]": "",
+
+    "[Date & time]": "",
+    "{Date & time}": "[Date & time]:belowLabel",
+
+    "[Backup]": "",
+
+    "[System update]": "",
+    "{System update}": "[System update]:belowLabel",
+
+    "[Rules]": "",
+    "{Rules}": "[Rules]:belowLabel",
+
+    "[Multiple users]": "",
+    "{Multiple users}": "[Multiple users]:belowLabel",
+
+    "[Developer options]": "",
+    "{Developer options}": "[Developer options]:belowLabel",
+
+    "[Reset options]": ""
+  }
+
+}

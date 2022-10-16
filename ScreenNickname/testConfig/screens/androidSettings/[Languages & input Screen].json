@@ -1,0 +1,38 @@
+{
+  "key": "[Languages & input Screen]",
+
+  "include": [
+  ],
+
+  "identity": "[<-][Languages & input]",
+
+  "selectors": {
+    "[<-]": "@Navigate up",
+    "[Languages & input]": "@Languages & input",
+
+    "[Languages]": "",
+    "{Languages}": "[Languages]:belowLabel",
+    "[Languages Icon]": "[Languages]:leftImage",
+
+    "[Keyboards]": "",
+
+    "[On-screen keyboard]": "",
+    "{On-screen keyboard}": "[On-screen keyboard]:belowLabel",
+
+    "[Physical keyboard]": "",
+    "{Physical keyboard}": "[Physical keyboard]:belowLabel",
+
+    "[Tools]": "",
+
+    "[Spell checker]": "",
+    "{Spell checker}": "[Spell checker]:belowLabel",
+
+    "[Personal dictionary]": "",
+    "{Personal dictionary}": "[Personal dictionary]:belowLabel",
+
+    "[Pointer speed]": "",
+
+    "[Text-to-speech output]": ""
+  }
+
+}
