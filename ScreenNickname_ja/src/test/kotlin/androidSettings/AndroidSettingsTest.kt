@@ -29,12 +29,11 @@ class AndroidSettingsTest : UITest() {
                 }.expectation {
                     it.exist("@上へ移動")
                         .exist("@言語と入力")
-                        .select("{言語}").textStartsWith("日本語")
                 }
             }
             case(3) {
                 action {
-                    it.tap()
+                    it.tap("[言語]")
                 }.expectation {
                     it.exist("@上へ移動")
                         .exist("@言語")
@@ -66,12 +65,11 @@ class AndroidSettingsTest : UITest() {
                 }.expectation {
                     it.screenIs("[言語と入力画面]")
                         .exist("[言語]")
-                        .select("{言語}").textStartsWith("日本語")
                 }
             }
             case(3) {
                 action {
-                    it.tap()
+                    it.tap("[言語]")
                 }.expectation {
                     it.screenIs("[言語画面]")
                 }

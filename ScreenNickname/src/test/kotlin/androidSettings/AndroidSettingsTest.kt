@@ -29,12 +29,11 @@ class AndroidSettingsTest : UITest() {
                 }.expectation {
                     it.exist("@Navigate up")
                         .exist("@Languages & input")
-                        .select("{Languages}").textStartsWith("English")
                 }
             }
             case(3) {
                 action {
-                    it.tap()
+                    it.tap("Languages")
                 }.expectation {
                     it.exist("@Navigate up")
                         .exist("@Languages")
@@ -66,12 +65,11 @@ class AndroidSettingsTest : UITest() {
                 }.expectation {
                     it.screenIs("[Languages & input Screen]")
                         .exist("[Languages]")
-                        .select("{Languages}").textStartsWith("English")
                 }
             }
             case(3) {
                 action {
-                    it.tap()
+                    it.tap("[Languages]")
                 }.expectation {
                     it.screenIs("[Languages Screen]")
                 }
